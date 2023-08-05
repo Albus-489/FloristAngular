@@ -1,0 +1,14 @@
+<div class="header">
+  <div class="hat">
+    <div class="logo-box">
+      <img [src]="logoPath" alt="">
+    </div>
+    <div class="nav-box">
+      <div class="nav-item" *ngFor="let navigationItem of navigationItems; let i=index">
+        <div>{{navigationItem}}</div>
+      </div>
+    </div>
+    <div class="phoneNumber-box">{{phoneNumber}}</div>
+  </div>
+</div>
+

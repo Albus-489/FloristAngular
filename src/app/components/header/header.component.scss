@@ -1,0 +1,26 @@
+.header{
+
+}
+
+.hat{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 6% 0 6%;
+  padding-top: 3.5%;
+  font-size: 16px;
+}
+
+.nav-box{
+  display: flex;
+}
+
+.nav-item {
+  flex: 1 1 auto;
+  max-width: 200px; // или любое другое значение, которое подходит под ваш дизайн
+  padding: 0 15px; // добавьте пространство по бокам
+}
+
+.nav-item, .phoneNumber-box, .logo-box{
+  cursor: pointer;
+}
