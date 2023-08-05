@@ -1,0 +1,27 @@
+.main-page {
+  background: url('./media/thomas-ae-295NLwGdrKM-unsplash.jpg') no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 100vh;
+
+}
+
+.slogan-box{
+  padding: 0 30%;
+  display: flex;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 6em;
+  text-transform: uppercase;
+}
+
+.works-btn {
+  font-size: 12px;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

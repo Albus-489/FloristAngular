@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Forum'; /* Вы можете заменить это на любое имя, которое вам нравится. */
+  src: url('/assets/fonts/Forum-Regular.ttf') format('truetype'); /* URL указывает на место, где находится ваш файл шрифта. */
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  // font-family: 'Forum', sans-serif;
+  color: white;
+  font-family: 'Forum';
+letter-spacing: 0.06em;
+
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
